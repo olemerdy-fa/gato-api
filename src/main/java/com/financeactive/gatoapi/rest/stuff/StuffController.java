@@ -1,4 +1,4 @@
-package com.financeactive.gatoapi.rest;
+package com.financeactive.gatoapi.rest.stuff;
 
 import com.financeactive.gatoapi.core.stuff.Stuff;
 import com.financeactive.gatoapi.core.stuff.StuffRepository;
