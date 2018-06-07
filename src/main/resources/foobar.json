@@ -1,0 +1,56 @@
+{
+  "authenticated": true,
+  "name": "google-oauth2|117507220840989028452",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlJEUXlNMFpDTVVSRU56UTFNemN5T0VJME5UUTBSRVJETkVFeU5qVkZOa0ZGUXpNNU1rUTJOUSJ9.eyJpc3MiOiJodHRwczovL29sZW1lcmR5LWZhLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzUwNzIyMDg0MDk4OTAyODQ1MiIsImF1ZCI6WyJodHRwczovL2dhdG8tYXBpLmhlcm9rdWFwcC5jb20vIiwiaHR0cHM6Ly9vbGVtZXJkeS1mYS5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTI4MzU0ODM0LCJleHAiOjE1MjgzNjIwMzQsImF6cCI6InB6d3VTT1Z0Y01rd1c2dm9tMnVLaUxteHhrNmQxaGR4Iiwic2NvcGUiOiJvcGVuaWQifQ.UYa4Z_5hYgqozVZ3iL-wIj_PEn4Sxk2zg8LWbUxhVLMqJiW6jAGV4Oebz29iG4wdO2JsOhciENyLRS-cGrF6NVe6y3tr9Ndj1gPUTZ6bOyweATvif2ds1srD32dWkN2Kg4iFxbkYmDfFWvTHLThLOt9VcyZl74hKOi0MqNY9_dDh_xkywvMPuMuJnSRGCKyLEFN-Dw6MJmgvB405OQz37YoZEiBBUv0pjrA3NxOGPfrH2mfT31pMPt7wh9BBFQ8eHiC0Z04RTcV1dVZIfmmi36-h8Rus2k5EgtIF1iROPHcCxAUnkvbop7I01ws6SWgkAsX5YwNsiMBNhXdr32ZsMQ",
+  "principal": "google-oauth2|117507220840989028452",
+  "details": {
+    "header": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlJEUXlNMFpDTVVSRU56UTFNemN5T0VJME5UUTBSRVJETkVFeU5qVkZOa0ZGUXpNNU1rUTJOUSJ9",
+    "payload": "eyJpc3MiOiJodHRwczovL29sZW1lcmR5LWZhLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzUwNzIyMDg0MDk4OTAyODQ1MiIsImF1ZCI6WyJodHRwczovL2dhdG8tYXBpLmhlcm9rdWFwcC5jb20vIiwiaHR0cHM6Ly9vbGVtZXJkeS1mYS5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTI4MzU0ODM0LCJleHAiOjE1MjgzNjIwMzQsImF6cCI6InB6d3VTT1Z0Y01rd1c2dm9tMnVLaUxteHhrNmQxaGR4Iiwic2NvcGUiOiJvcGVuaWQifQ",
+    "id": null,
+    "type": "JWT",
+    "signature": "UYa4Z_5hYgqozVZ3iL-wIj_PEn4Sxk2zg8LWbUxhVLMqJiW6jAGV4Oebz29iG4wdO2JsOhciENyLRS-cGrF6NVe6y3tr9Ndj1gPUTZ6bOyweATvif2ds1srD32dWkN2Kg4iFxbkYmDfFWvTHLThLOt9VcyZl74hKOi0MqNY9_dDh_xkywvMPuMuJnSRGCKyLEFN-Dw6MJmgvB405OQz37YoZEiBBUv0pjrA3NxOGPfrH2mfT31pMPt7wh9BBFQ8eHiC0Z04RTcV1dVZIfmmi36-h8Rus2k5EgtIF1iROPHcCxAUnkvbop7I01ws6SWgkAsX5YwNsiMBNhXdr32ZsMQ",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlJEUXlNMFpDTVVSRU56UTFNemN5T0VJME5UUTBSRVJETkVFeU5qVkZOa0ZGUXpNNU1rUTJOUSJ9.eyJpc3MiOiJodHRwczovL29sZW1lcmR5LWZhLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzUwNzIyMDg0MDk4OTAyODQ1MiIsImF1ZCI6WyJodHRwczovL2dhdG8tYXBpLmhlcm9rdWFwcC5jb20vIiwiaHR0cHM6Ly9vbGVtZXJkeS1mYS5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTI4MzU0ODM0LCJleHAiOjE1MjgzNjIwMzQsImF6cCI6InB6d3VTT1Z0Y01rd1c2dm9tMnVLaUxteHhrNmQxaGR4Iiwic2NvcGUiOiJvcGVuaWQifQ.UYa4Z_5hYgqozVZ3iL-wIj_PEn4Sxk2zg8LWbUxhVLMqJiW6jAGV4Oebz29iG4wdO2JsOhciENyLRS-cGrF6NVe6y3tr9Ndj1gPUTZ6bOyweATvif2ds1srD32dWkN2Kg4iFxbkYmDfFWvTHLThLOt9VcyZl74hKOi0MqNY9_dDh_xkywvMPuMuJnSRGCKyLEFN-Dw6MJmgvB405OQz37YoZEiBBUv0pjrA3NxOGPfrH2mfT31pMPt7wh9BBFQ8eHiC0Z04RTcV1dVZIfmmi36-h8Rus2k5EgtIF1iROPHcCxAUnkvbop7I01ws6SWgkAsX5YwNsiMBNhXdr32ZsMQ",
+    "notBefore": null,
+    "contentType": null,
+    "subject": "google-oauth2|117507220840989028452",
+    "algorithm": "RS256",
+    "keyId": "RDQyM0ZCMURENzQ1MzcyOEI0NTQ0RERDNEEyNjVFNkFFQzM5MkQ2NQ",
+    "issuer": "https://olemerdy-fa.eu.auth0.com/",
+    "audience": [
+      "https://gato-api.herokuapp.com/",
+      "https://olemerdy-fa.eu.auth0.com/userinfo"
+    ],
+    "expiresAt": "2018-06-07T09:00:34.000+0000",
+    "issuedAt": "2018-06-07T07:00:34.000+0000",
+    "claims": {
+      "sub": {
+        "null": false
+      },
+      "aud": {
+        "null": false
+      },
+      "azp": {
+        "null": false
+      },
+      "scope": {
+        "null": false
+      },
+      "iss": {
+        "null": false
+      },
+      "exp": {
+        "null": false
+      },
+      "iat": {
+        "null": false
+      }
+    }
+  },
+  "credentials": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlJEUXlNMFpDTVVSRU56UTFNemN5T0VJME5UUTBSRVJETkVFeU5qVkZOa0ZGUXpNNU1rUTJOUSJ9.eyJpc3MiOiJodHRwczovL29sZW1lcmR5LWZhLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzUwNzIyMDg0MDk4OTAyODQ1MiIsImF1ZCI6WyJodHRwczovL2dhdG8tYXBpLmhlcm9rdWFwcC5jb20vIiwiaHR0cHM6Ly9vbGVtZXJkeS1mYS5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTI4MzU0ODM0LCJleHAiOjE1MjgzNjIwMzQsImF6cCI6InB6d3VTT1Z0Y01rd1c2dm9tMnVLaUxteHhrNmQxaGR4Iiwic2NvcGUiOiJvcGVuaWQifQ.UYa4Z_5hYgqozVZ3iL-wIj_PEn4Sxk2zg8LWbUxhVLMqJiW6jAGV4Oebz29iG4wdO2JsOhciENyLRS-cGrF6NVe6y3tr9Ndj1gPUTZ6bOyweATvif2ds1srD32dWkN2Kg4iFxbkYmDfFWvTHLThLOt9VcyZl74hKOi0MqNY9_dDh_xkywvMPuMuJnSRGCKyLEFN-Dw6MJmgvB405OQz37YoZEiBBUv0pjrA3NxOGPfrH2mfT31pMPt7wh9BBFQ8eHiC0Z04RTcV1dVZIfmmi36-h8Rus2k5EgtIF1iROPHcCxAUnkvbop7I01ws6SWgkAsX5YwNsiMBNhXdr32ZsMQ",
+  "authorities": [
+    {
+      "authority": "openid"
+    }
+  ],
+  "keyId": "RDQyM0ZCMURENzQ1MzcyOEI0NTQ0RERDNEEyNjVFNkFFQzM5MkQ2NQ"
+}
