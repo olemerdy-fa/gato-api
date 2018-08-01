@@ -17,9 +17,12 @@ public class StuffGen implements Supplier<Stuff> {
 
     private final Faker faker;
 
-    public StuffGen(Clock clock, Faker faker) {
+    private final Supplier<Money> moneySupplier;
+
+    public StuffGen(Clock clock, Faker faker, Supplier<Money> moneySupplier) {
         this.clock = clock;
         this.faker = faker;
+        this.moneySupplier = moneySupplier;
     }
 
     @Override
@@ -29,10 +32,7 @@ public class StuffGen implements Supplier<Stuff> {
                 faker.date().past(1_000, TimeUnit.DAYS, Date.from(clock.instant())).toInstant(),
                 faker.book().title(),
                 faker.lorem().paragraph(),
-                Money.of(
-                        faker.number().randomDouble(2, 0, Integer.MAX_VALUE),
-                        faker.currency().code()
-                )
+                moneySupplier.get()
         );
     }
 }
