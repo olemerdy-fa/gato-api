@@ -1,7 +1,11 @@
 package com.financeactive.gatoapi.core.stuff;
 
+import org.javamoney.moneta.Money;
+
 import java.time.Instant;
 import java.util.UUID;
+
+import static java.util.Objects.requireNonNull;
 
 public final class Stuff {
 
@@ -13,11 +17,14 @@ public final class Stuff {
 
     private final String description;
 
-    public Stuff(UUID id, Instant creationDate, String title, String description) {
-        this.id = id;
+    private final Money price;
+
+    public Stuff(UUID id, Instant creationDate, String title, String description, Money money) {
+        this.id = requireNonNull(id);
         this.creationDate = creationDate;
-        this.title = title;
+        this.title = requireNonNull(title);
         this.description = description;
+        this.price = requireNonNull(money);
     }
 
     public UUID getId() {
@@ -34,5 +41,9 @@ public final class Stuff {
 
     public String getDescription() {
         return description;
+    }
+
+    public Money getPrice() {
+        return price;
     }
 }

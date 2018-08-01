@@ -1,6 +1,7 @@
 package com.financeactive.gatoapi.core.stuff;
 
 import com.github.javafaker.Faker;
+import org.javamoney.moneta.Money;
 import org.springframework.stereotype.Component;
 
 import java.sql.Date;
@@ -27,7 +28,11 @@ public class StuffGen implements Supplier<Stuff> {
                 UUID.randomUUID(),
                 faker.date().past(1_000, TimeUnit.DAYS, Date.from(clock.instant())).toInstant(),
                 faker.book().title(),
-                faker.lorem().paragraph()
+                faker.lorem().paragraph(),
+                Money.of(
+                        faker.number().randomDouble(2, 0, Integer.MAX_VALUE),
+                        faker.currency().code()
+                )
         );
     }
 }
